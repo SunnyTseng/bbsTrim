@@ -1,5 +1,10 @@
 # bbsTrim
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/SunnyTseng/bbsTrim/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SunnyTseng/bbsTrim/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+
 bbsTrim is a package to streamline Taiwan BBS data retrieval and analysis. 'bbsTrim' will support data retrieval from GBIF, where Taiwan BBS data are stored. 'bbsTrim' will also include the population trend modelling, using TRIM (TRends and Indices for Monitoring data). Users can tailor species analysis, controlling data stratification, preparation, and modeling. I will be consulting the Taiwan BBS team to ensure that the 'bbsTrim' package is using the methods as the official products. As an R package, 'bbsTrim' can easily be integrated into other R programming processes. The goal is to expand Taiwan BBS data access to the broader R-society in Taiwan.
 
 

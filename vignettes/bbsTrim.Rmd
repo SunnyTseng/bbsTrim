@@ -17,3 +17,5 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(bbsTrim)
 ```
+
+Put some text for test and practice here.

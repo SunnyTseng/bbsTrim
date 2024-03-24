@@ -11,6 +11,8 @@
 #' what_time(language = "en")
 what_time <- function(language = "fr") {
 
+  rlang::arg_match0(language, c("fr", "en"))
+
   time <- format(Sys.time(), "%H:%M")
 
   exclamation <- praise::praise("${Exclamation}")
